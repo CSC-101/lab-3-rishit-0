@@ -15,3 +15,6 @@ class Lab3TestCases(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+# test_double_one giving the right answer doesn't imply that the double function is correct.
+# For the value of 2, 2*2=2**2, so it outputs the expected value even if the code is fundamentally incorrect.
